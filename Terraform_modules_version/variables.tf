@@ -3,15 +3,6 @@ variable "region" {
   default = "eu-west-3"
 }
 
-variable "access_key" {
-  default = "AKIAXBTSGS3ZZEX5AZO4"
-}
-
-variable "secret_key" {
-  default = "z1T/gjULZYUBhICJi/fZ5gBQH5fOfZ7osUTwptTG"
-}
-
-
 variable "vpc" {
   type        = string
   default     = "172.16.0.0/16"
